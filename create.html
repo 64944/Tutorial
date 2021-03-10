@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add New Product</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="topdash" id="topdash">
+		<span><a href="index.html">Website</a></span>
+		<ul>
+			<li><a href="datatable.php">Data Table</a></li>
+			<li><a href="create.html">Add New Product</a></li>
+			<li><a href="index.html">Logout</a></li>
+		</ul>
+	</div>
+
+<!-- Form to add product -->
+<div class="body" id="body">
+<span>Add New Product</span>
+<br>
+<br>
+	<form name="createProduct" action="php/create.php" method="POST">
+		<div> Product Name: </div>
+		<input name="Name" type="text" placeholder="Name" required/> <br>
+		<div> Price(RM): </div>
+		<input name="Price" type="text" placeholder="99.99" required/> <br>
+		<div> Product Details: 
+			<span style="font-size: 10px">(Maximum 100 characters)</span>
+		</div>
+		<textarea name="Details" id = "Details" rows="3" maxlength="100" placeholder="Details"></textarea>
+		<div> Publish: </div>
+		<input name="Publish" id="Yes" type="radio" value="Yes" required/>
+		<label for="Yes">Yes</label><br>
+		<input name="Publish" id="No" type="radio" value="No" required/> 
+		<label for="No">No</label> <br><br>
+		<input id="create" type="submit" value="Submit"/>
+		<a href="datatable.php">Cancel</a>
+	</form>
+</div>
+
+</body>
+</html>

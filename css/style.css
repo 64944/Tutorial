@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: system-ui;
+}
+
+.topdash {
+	background-color: #C9DBBA;
+	height: 10%;
+}
+
+.topdash span a{
+	margin: 20px;
+	font-size: 200%;
+	text-decoration: none;
+	color: #000000;
+	display: inline-block;
+}
+
+ul {
+	float: right;
+	font-size: 0;
+	margin: 30px;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	padding: 5px 20px;
+	color: #000000;
+	font-size: 20px;
+	border-radius: 25px;
+}
+
+ul li a:hover, ul li a:active, ul li a:focus {
+	background-color: #006F72;
+	color: white;
+}
+
+
+.body {
+	display: block; 
+	margin: 20px auto; 
+	width: 70%;
+}
+
+.body span {
+	font-size: 30px;
+}
+
+.body a {
+		font-size: 15px;
+		border-radius: 25px;
+	  	background-color: #C9DBBA;
+	  	color: black;
+	  	padding: 5px 10px;
+	  	text-decoration: none;
+	  	display: inline-block
+}
+
+.body a:hover, a:active, a:focus {
+	background-color: #006F72;
+	color: white;
+}
+
+table {
+    table-layout: fixed;
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+td {
+	word-wrap:break-word;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #C9DBBA;
+}
+
+input[type=text] {
+	width: 100%;
+	font-size: 15px;
+}
+
+input[type=submit] {
+	font-size: 15px;
+	border-radius: 25px;
+	background-color: #C9DBBA;
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+	display: inline-block
+}
+
+textarea {
+	width: 100%;
+	font-size: 15px;
+}
+
+form input {
+	margin-bottom: 10px;
+}
